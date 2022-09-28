@@ -16,7 +16,7 @@ function App() {
         setTodo={setTodo} 
         todoList={todoList} 
         setTodoList={setTodoList}/>
-        <TodoList todoList={todoList} />
+        <TodoList setTodoList={setTodoList} todoList={todoList} />
     </div>
   );
 }

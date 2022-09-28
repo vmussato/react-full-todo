@@ -43,6 +43,10 @@ body {
     margin-top: 20px;
 }
 
+.todoItem {
+    width: 25%;
+}
+
 .todoname {
 
 }
@@ -54,4 +58,11 @@ body {
     width: 100px;
     border-radius: 2px;
     color: white;
+}
+
+.todolist {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    flex-wrap: wrap;
 }
