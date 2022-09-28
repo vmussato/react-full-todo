@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Form from "./components/Form";
 import Header from "./components/Header";
-import Todo from "./components/Todo";
+import TodoList from "./components/todoList";
 
 function App() {
 
@@ -16,7 +16,7 @@ function App() {
         setTodo={setTodo} 
         todoList={todoList} 
         setTodoList={setTodoList}/>
-        <Todo />
+        <TodoList todoList={todoList} />
     </div>
   );
 }
